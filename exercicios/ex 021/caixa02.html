@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: white;
+            padding: 1px 10px 10px 10px;
+            text-align: center;
+        }
+        nav{
+            text-align: left;
+            background-color: rgb(34, 32, 32);
+            padding: 3px;
+            box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.616);
+        }
+        nav > a{
+            text-decoration: none;
+            color: lightseagreen;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            border-radius: 20px;
+        }
+        section{
+            background-color: lightgray;
+            padding: 5px;
+            text-align: justify;
+        }
+        article > h2{
+            background-color: bisque;
+            text-align: center;
+        }
+        article > p{
+            text-indent: 20px;
+            font-weight: bold;
+        }
+        footer{
+            background-color: black;
+            color:white;
+            padding: 1px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticia">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima, nulla eveniet obcaecati explicabo perspiciatis, rem delectus voluptatum rerum voluptas neque praesentium deserunt? Pariatur quisquam, iure magni iste delectus iusto!</p>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <aside>
+            <p>Artigo escrito por José da silva</p>
+        </aside>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

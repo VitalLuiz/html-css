@@ -1,0 +1,31 @@
+@charset "UTF-*";
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+:root{
+    --var: cor4(#d27a92);
+    --var: cor3(#EF959C);
+    --var: cor2(#E8ACA4);
+    --var: cor2(#f8d1cc);
+    --var: cor1(#F0DFDD);
+}
+header{
+    background-image: linear-gradient(to bottom, #EF959C, #E8ACA4);
+    height: 140px;
+}
+nav{
+    margin: 0px 10px;
+    font-size: 1em;
+}
+h1{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: #F0DFDD;
+}
