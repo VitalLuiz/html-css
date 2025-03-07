@@ -1,2 +1,12 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 800px;
+    min-width: 300px;
+}
+header{
+    background-image: linear-gradient(to top, rgb(178, 117, 232), rgb(240, 122, 181));
+    height: 650px;
+}
