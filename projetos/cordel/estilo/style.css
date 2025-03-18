@@ -1,2 +1,45 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background: black;
+    height: 200px;
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    padding-top: 50px;
+}
+p{
+    font-size: 1.5em;
+    padding: 25px;
+    padding-bottom: 10px;
+    color: black;
+}
+p#principal{
+    padding: 12px;
+    font-size: 1.2em;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#footerp{
+    padding: 7px;
+    font-size: 1.3em;
+    color: white;
+}
